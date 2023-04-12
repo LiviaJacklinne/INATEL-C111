@@ -31,3 +31,8 @@ import numpy as np
 ''' EXERCICIO 5 '''
 mtz = np.arange(1,16,1).reshape(3,5)
 print(mtz)
+dimensao = np.shape(mtz)
+tamanho = np.size(mtz)
+
+# print(dimensao)
+print('Tamanho da matriz', tamanho)
