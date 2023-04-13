@@ -31,8 +31,10 @@ import numpy as np
 ''' EXERCICIO 5 '''
 mtz = np.arange(1,16,1).reshape(3,5)
 print(mtz)
-dimensao = np.shape(mtz)
-tamanho = np.size(mtz)
+linha, coluna = np.shape(mtz)
 
-# print(dimensao)
-print('Tamanho da matriz', tamanho)
+tamanho = linha * coluna
+if tamanho % 2 == 0:
+    print("Número par de elementos", tamanho)
+else:
+    print('Numero impar de elementos', tamanho)
