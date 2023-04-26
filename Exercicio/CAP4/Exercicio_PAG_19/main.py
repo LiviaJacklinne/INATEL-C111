@@ -16,8 +16,8 @@ print('Matriz\n', mtz)
 print("-------------------")
 
 ''' QUESTÃO 3 '''
-media_coluna = (mtz.sum(axis=0))
-media_linha = (mtz.sum(axis=1))
+media_coluna = (mtz.mean(axis=0))
+media_linha = (mtz.mean(axis=1))
 
 
 
