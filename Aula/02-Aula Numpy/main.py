@@ -60,4 +60,3 @@ print(np.unique(vect, return_counts= True))
 
 # ''' Operação de broadcast, é fazer a operação de um array por escalar   '''
 # print(mtz/10)
-
