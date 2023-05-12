@@ -7,5 +7,5 @@ ds = np.loadtxt('space.csv', delimiter=';',dtype=str,encoding='utf-8')
 
 ''' EXERCICIO 2 '''
 values = ds[1:,6].astype(float)
-print(values)
+# print(values)
 print(values[values != 0].mean())
